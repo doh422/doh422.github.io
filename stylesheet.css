@@ -9,14 +9,20 @@ li {
 }
 
 
-.projects {
+.slide3 {
 	background-image: url("assets/Simple-Light-Vector-Presentation-Shelf-01.jpg");
 	height: 100vh;
 	background-size: cover;
 }
 
-.projects h1 {
+#projects h1 {
 	font-family: 'Homenaje', sans-serif;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+#work {
+	margin-top: 10%;
 }
 
 .contact {
@@ -32,9 +38,6 @@ li {
 
 }
 
-.work {
-	padding-top: 10%;
-}
 
 .slide2 {
 	background-image: url("assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.jpg");
