@@ -1,12 +1,105 @@
-li {
-	text-align: center;
+#header {
+	height: 15%;
+	background-color: white;
 }
 
-#pic {
-	background-image: url("assets/LA2.jpg");
-	background-size: cover;
-	height: 60vh;
+#brand-box {
+	height: 2em;
+	background-color: black;
+	width: 2em;
+	position: relative;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	font-family: CircleD;
+	font-weight: bolder;
+	display: table-cell;
+	vertical-align: middle;
+	top: 25;
 }
+
+#links {
+	float: right;
+}
+
+#links li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#footer {
+	height: 25%;
+	background-color: white;
+}
+
+.jumbotron {
+	height: 70%;
+	margin-bottom: 0;
+	background: url('assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.jpg') fixed;
+	background-size: cover;
+	color: white;
+}
+
+.jumbotron h1 {
+	color: white;
+	padding-left: 25%;
+	padding-top: 3%;
+}
+
+.jumbotron p {
+	color: white;
+	padding-left: 25%;
+}
+
+#about {
+	height: 50vh;
+	background: url('assets/LA2.jpg') fixed;
+	background-size: cover;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#about h1 {
+	text-align: center;
+	color: white;
+	margin: 0;
+	font-family: CircleD;
+}
+
+#about p {
+	text-align: center;
+	color: white;
+
+}
+
+#second-page {
+	height: 50vh;
+	background: url('assets/programming (1).png') no-repeat;
+	background-position: center;
+}
+
+#skills {
+ padding-top: 40;
+}
+
+#second-page h1 {
+	text-align: center;
+	margin: 0;
+	padding-top: 15;
+}
+
+#skills li {
+	list-style-type: none;
+	text-align: center;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+/* -- old */
 
 
 .slide3 {
@@ -34,11 +127,6 @@ li {
 
 }
 
-.header {
-	height: 100vh;
-
-}
-
 
 .slide2 {
 	background-image: url("assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.jpg");
@@ -47,26 +135,4 @@ li {
 	background-repeat: no-repeat;
 	font-family: 'Homenaje', sans-serif;
 	position: relative;
-}
-
-#about {
-	color: white;
-	padding-top: 5%;
-	font-family: 'Homenaje', sans-serif;
-}
-
-#name {
-	width: 60%;
-	text-align: center;
-	font-size: large;
-	font-family: 'Homenaje', sans-serif;
-}
-
-#summary {
-	text-align: center;
-	font-family: 'Homenaje', sans-serif;
-}
-
-.page-header {
-	border-bottom: none;
 }
