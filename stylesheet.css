@@ -26,7 +26,7 @@
 	display: inline;
 }
 
-a {
+#links a {
 	text-decoration: none;
 	color: black;
 }
@@ -84,12 +84,14 @@ a {
 
 #skills {
  padding-top: 40;
+ margin: 0;
 }
 
 #second-page h1 {
 	text-align: center;
 	margin: 0;
 	padding-top: 15;
+	font-family: CircleD;
 }
 
 #skills li {
@@ -99,40 +101,41 @@ a {
 	font-size: larger;
 }
 
-/* -- old */
-
-
-.slide3 {
-	background-image: url("assets/Simple-Light-Vector-Presentation-Shelf-01.jpg");
-	height: 100vh;
-	background-size: cover;
-	position: relative;
+#third-page {
+	height: 65vh;
 }
 
-#projects h1 {
-	font-family: 'Homenaje', sans-serif;
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
+#third-page h1 {
+	text-align: center;
+	font-family: CircleD;
 }
 
-#work {
-	margin-top: 10%;
+.row {
+	margin: auto;
 }
 
-.contact {
+#bottom {
 	background-color: black;
 	color: white;
 	height: 25vh;
-	font-family: 'Homenaje', sans-serif;
-
 }
 
-
-.slide2 {
-	background-image: url("assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.jpg");
-	background-size: cover;
-	height: 100vh;
-	background-repeat: no-repeat;
-	font-family: 'Homenaje', sans-serif;
-	position: relative;
+#bottom h1 {
+	font-family: CircleD;
+	text-align: center;
 }
+
+#bottom ul {
+	text-align: center;
+}
+
+#bottom a {
+	text-decoration: none;
+	color: white;
+}
+
+#bottom li {
+	list-style-type: none;
+	display: inline;
+}
+
