@@ -123,27 +123,31 @@
 
 }
 
-#bottom {
+#contact {
 	background-color: black;
 	color: white;
-	height: 25vh;
 }
 
-#bottom h1 {
+#contact h1 {
 	font-family: CircleD;
 	text-align: center;
 }
 
-#bottom ul {
+#map iframe {
+	width: 100%;
+	height: 25%;
+}
+
+#contact ul {
 	text-align: center;
 }
 
-#bottom a {
+#contact a {
 	text-decoration: none;
 	color: white;
 }
 
-#bottom li {
+#contact li {
 	list-style-type: none;
 	display: inline;
 }
