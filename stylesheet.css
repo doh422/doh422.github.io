@@ -82,14 +82,22 @@
 }
 
 #second-page {
-	height: 50vh;
+/*	height: 50vh;
 	background: url('assets/programming (1).png') no-repeat;
-	background-position: center;
+	background-position: center;*/
 }
 
 #skills {
- padding-top: 40;
- margin: 0;
+ 	background: url('assets/programming (1).png') no-repeat;
+	background-position: center;
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#skills-content {
+	margin: 0;
 }
 
 #second-page h1 {
