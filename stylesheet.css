@@ -11,7 +11,7 @@
 	color: white;
 	text-align: center;
 	font-size: 2em;
-	font-family: CircleD;
+	font-family: CircleD, sans-serif;
 	font-weight: bolder;
 	display: table-cell;
 	vertical-align: middle;
