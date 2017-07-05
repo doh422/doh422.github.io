@@ -1,30 +1,32 @@
 #header {
-	height: 15%;
 	background-color: white;
+	padding: 25px 0;
 }
 
 #brand-box {
 	height: 2em;
 	background-color: black;
 	width: 2em;
-	position: relative;
 	color: white;
 	text-align: center;
 	font-size: 2em;
 	font-family: CircleD, sans-serif;
 	font-weight: bolder;
-	display: table-cell;
-	vertical-align: middle;
-	top: 25;
+	display: inline-block;
 }
 
 #links {
 	float: right;
 }
 
+#links ul {
+	margin-top: 1em;
+}
+
 #links li {
 	display: inline;
 	margin-left: 2em;
+	vertical-align: -webkit-baseline-middle;
 }
 
 #links a {
