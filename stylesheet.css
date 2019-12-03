@@ -10,9 +10,9 @@
 	color: white;
 	text-align: center;
 	font-size: 2em;
-	font-family: CircleD, sans-serif;
+	font-family: 'Homenaje', sans-serif;
 	font-weight: bolder;
-	display: inline-block;
+	float: left;
 }
 
 @media only screen and (max-width: 770px) {
@@ -57,7 +57,7 @@
 .jumbotron {
 	height: 70%;
 	margin-bottom: 0;
-	background: url('assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.jpg') fixed;
+	background: url('assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.webp') fixed;
 	background-size: cover;
 	color: white;
 }
@@ -75,7 +75,7 @@
 
 #about {
 	height: 50vh;
-	background: url('assets/LA2.jpg') fixed;
+	background: url('assets/LA2.webp') fixed;
 	background-size: cover;
 	display: table-cell;
 	vertical-align: middle;
@@ -85,7 +85,7 @@
 	text-align: center;
 	color: white;
 	margin: 0;
-	font-family: CircleD;
+	font-family: 'Homenaje', sans-serif;
 }
 
 #about-content {
@@ -121,7 +121,7 @@
 	text-align: center;
 	margin: 0;
 	padding-top: 15;
-	font-family: CircleD;
+	font-family: 'Homenaje', sans-serif;
 }
 
 #skills li {
@@ -137,7 +137,7 @@
 
 #third-page h1 {
 	text-align: center;
-	font-family: CircleD;
+	font-family: 'Homenaje', sans-serif;
 }
 
 .row {
@@ -154,7 +154,7 @@
 }
 
 #contact h1 {
-	font-family: CircleD;
+	font-family: 'Homenaje', sans-serif;
 	text-align: center;
 }
 
