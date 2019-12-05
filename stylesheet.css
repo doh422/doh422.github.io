@@ -57,7 +57,7 @@
 .jumbotron {
 	height: 70%;
 	margin-bottom: 0;
-	background: url('assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.webp') fixed;
+	background: url('assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080.webp') fixed, url('assets/sunset_usa_los_angeles_building_top_view_59142_1920x1080-min.jpg') fixed;
 	background-size: cover;
 	color: white;
 }
@@ -75,7 +75,7 @@
 
 #about {
 	height: 50vh;
-	background: url('assets/LA2.webp') fixed;
+	background: url('assets/LA2.webp') fixed, url('assets/LA2-min.jpg') fixed;
 	background-size: cover;
 	display: table-cell;
 	vertical-align: middle;
